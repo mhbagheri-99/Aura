@@ -19,4 +19,7 @@ public:
 	virtual void HighlightActor() override;
 	virtual void UnHighlightActor() override;
 
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
 };
