@@ -30,5 +30,5 @@ protected:
 	TObjectPtr<USpringArmComponent> SpringArm;
 
 private:
-	void InitAbilityActorInfo();
+	virtual void InitAbilityActorInfo() override;
 };
